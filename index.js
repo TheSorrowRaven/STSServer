@@ -9,7 +9,7 @@ const prompt = require('prompt')
 
 const savePath = "save.json"
 const app = express()
-const port = 8080
+const port = (process.env.PORT || 8080)
 
 const users = "users"
 
