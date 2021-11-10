@@ -1,4 +1,6 @@
 
+
+
 const cors = require('cors')
 const fs = require('fs');
 const express = require('express')
@@ -288,7 +290,7 @@ app.use("/uploads", express.static("uploads"))
 app.post("/upload", upload.single("file" /* name attribute of <file> element in your form */), (request, response) => {
 
     console.log("File name = " + request.file.filename)
-    filename = request.file.filename
+    let filename = request.file.filename
     let user = getUserFromUsername(filename)
     if (user == null){
         console.log("User null")
@@ -310,15 +312,7 @@ app.post("/upload", upload.single("file" /* name attribute of <file> element in 
 app.get("/", function(req, res){
 
     console.log("GET Call")
-    console.log(req.headers)
-    console.log(res.json)
 
-})
-app.use("/", function(req, res){
-    console.log("USE")
-})
-app.emit("/", function(req, res){
-    console.log("EMIT")
 })
 
 
