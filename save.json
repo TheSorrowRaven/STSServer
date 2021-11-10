@@ -1,0 +1,73 @@
+{
+    "users": [
+        {
+            "username": "admin",
+            "name": "Sorrow To Smiles",
+            "email": "sorrowtosmiles.mmu.sef.iamfine@gmail.com",
+            "password": "password",
+            "phoneno": "000000000",
+            "gender": "O",
+            "dob": "2000-01-01",
+            "admin": "true",
+            "accounts": [
+                {
+                    "name": "Google",
+                    "id": "123123"
+                },
+                {
+                    "name": "Twitter"
+                }
+            ]
+        },
+        {
+            "username": "ravenlim",
+            "name": "Raven Lim",
+            "email": "abcddd@gmail.com",
+            "password": "00000000",
+            "phoneno": "013552267",
+            "gender": "M",
+            "dob": "2001-01-31"
+        },
+        {
+            "username": "newuser",
+            "name": "New User",
+            "email": "newuser@user.com",
+            "password": "pqpqpqpq",
+            "phoneno": "999222888444",
+            "gender": "O",
+            "dob": "1994-04-28",
+            "psychiatrist": "true",
+            "psychiatristVerified": true
+        },
+        {
+            "username": "pstee",
+            "name": "polos",
+            "email": "jfksnfk@jfk.com",
+            "password": "iiiiiiii",
+            "phoneno": "646464635",
+            "gender": "M",
+            "dob": "1997-09-01",
+            "psychiatrist": "true",
+            "psychiatristVerified": false,
+            "registrationDateTime": "2021-11-06T04:55:12.971Z"
+        },
+        {
+            "username": "",
+            "name": "RAVEN LIM ZHE XUAN",
+            "email": "1191101213@student.mmu.edu.my",
+            "password": "",
+            "phoneno": "",
+            "gender": "o",
+            "dob": "Tue Nov 09",
+            "psychiatrist": "false",
+            "registrationDateTime": "2021-11-09T10:10:16.867Z",
+            "accounts": [
+                {
+                    "name": "Google",
+                    "id": "112218096225028193025",
+                    "email": "1191101213@student.mmu.edu.my"
+                }
+            ]
+        }
+    ]
+}
